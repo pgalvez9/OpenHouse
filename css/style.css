@@ -5668,7 +5668,7 @@ button.bg-dark:focus {
 .embed-responsive {
   position: relative;
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 0;
   overflow: hidden; }
   .embed-responsive::before {
@@ -8432,8 +8432,8 @@ h5,
       font-size: 14vw;
       color: #fff; }
     .video-hero .text .subheading {
-      font-size: 12px;
-      font-weight: 600;
+      font-size: 11px;
+      font-weight: 400;
       text-transform: uppercase;
       color: #fff;
       letter-spacing: 7px;
@@ -8463,15 +8463,15 @@ h5,
       color: #fff; }
 
 #timer {
-  width: 60%;
+  width: 100%;
   margin: 0 auto; }
   @media (max-width: 991.98px) {
     #timer {
-      width: 90%; } }
+      width: 100%; } }
   #timer .time {
     width: 25%;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 250;
     border-left: 1px solid rgba(0, 0, 0, 0.05);
     color: #fff;
     margin-bottom: 0; }
@@ -8481,7 +8481,7 @@ h5,
     #timer .time:first-child {
       border-left: transparent; }
     #timer .time span {
-      font-size: 12px;
+      font-size: 10px;
       display: block;
       color: #fff;
       letter-spacing: 2px;
